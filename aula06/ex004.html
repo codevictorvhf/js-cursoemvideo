@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <script>
+      var name = window.prompt("What is your name?");
+      document.write(
+        `Hello, ${name}. Your name has ${name.length} letters. <br>`
+      );
+      document.write(
+        `Your name can be displayed in upper case, ${name.toUpperCase()} <br>`
+      );
+      document.write(
+        `Your name can be displayed in lower case, ${name.toLowerCase()}`
+      );
+
+      var n1 = 1545.5;
+
+      console.log(
+        n1.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })
+      );
+    </script>
+  </body>
+</html>
