@@ -4,19 +4,11 @@ function conferir() {
 
   var confNac = String(p1.value);
 
-  nac.innerHTML = `<p>O país que você está é <strong>${confNac}</strong>. </p>`;
+  nac.innerHTML = `<p>The country you are in is <strong>${confNac}</strong>. </p>`;
 
-  if (confNac !== "Brasil") {
-    nac.innerHTML += `<p>E você é Estrangeiro.</p>`;
+  if (confNac !== "Brazil") {
+    nac.innerHTML += `<p>And you are Foreigner.</p>`;
   } else {
-    nac.innerHTML += `<p>E você é Brasileiro.</p>`;
+    nac.innerHTML += `<p>And you are Brazilian.</p>`;
   }
 }
-
-// var país = "EUA";
-// console.log(`Vivendo em ${país}`);
-// if (país != "Brasil") {
-//   console.log("Você é Estrangeiro");
-// } else {
-//   console.log("Você é Brasileiro");
-// }
