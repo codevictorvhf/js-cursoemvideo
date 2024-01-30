@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="style-model.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tabuada</h1>
+    </header>
+    <section>
+      <div>
+        <p>
+          <label for="txtn"
+            >Number: <input type="number" name="num" id="txtn"
+          /></label>
+          <input type="button" value="Gerar tabuada" onclick="tabuada()" />
+        </p>
+      </div>
+      <div>
+        <select name="tab" id="seltab" size="10">
+          <option>Enter a number above</option>
+        </select>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; Victor Henrique</p>
+    </footer>
+
+    <script src="tabuada.js"></script>
+  </body>
+</html>
